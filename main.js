@@ -1,9 +1,9 @@
 // № 1
 
 // let n = prompt('Ведите число от 0 до 999:');
-// let obj = {};
 
-// function NumToObj(n, obj){
+// function NumToObj(n){
+//   let obj = {};
 //   if (!isNaN(n) && n > 0 && n < 999){
 //     obj.единицы = n % 10;
 //     obj.десятки = Math.trunc(n / 10) % 10;
@@ -11,11 +11,10 @@
 //     return obj;
 //   } else {
 //     console.log('Вы ввели не корректное число!');
-//     return obj = 0;
+//     return obj = {};
 //   }
 // }
-// NumToObj(n, obj);
-// console.log(obj);
+// console.log(NumToObj(n));
 
 
 // № 2
